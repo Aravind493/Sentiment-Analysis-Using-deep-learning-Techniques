@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sentiment Classification</title>
+    <link rel="stylesheet" href="/scripts/style.css">
+</head>
+<body>
+    <h1>Sentiment Classification</h1>
+    <form method="POST" action="/predict">
+        <textarea name="text" id="text" rows="5" cols="50" placeholder="Enter text to classify..."></textarea>
+        <br>
+        <button type="submit">Predict Sentiment</button>
+    </form>
+    <p id="sentiment"></p>
+    <script src="/scripts/script.js"></script>
+</body>
+</html>
